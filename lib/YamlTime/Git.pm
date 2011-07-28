@@ -8,11 +8,26 @@
 # - YamlTime
 
 use 5.008003;
-use YamlTime 0.08 ();
+use YamlTime 0.10 ();
 
-package YamlTime::Extension::Git;
+package YamlTime::Git;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
+
+# XXX Put this here on 28/07/2011. Leave in for a while...
+{
+    no warnings;
+    eval "require YamlTime::Extension::Git";
+    die <<"..." unless $@;
+
+It looks like you have YamlTime::Extension::Git installed.
+You need to remove it from your system. It has been replaced
+by YamlTime::Git.
+
+Please remove $INC{'YamlTime/Extension/Git.pm'}
+
+...
+}
 
 package YamlTime::Command::commit;
 use Mouse;
@@ -40,3 +55,8 @@ sub execute {
 }
 
 1;
+
+=head1 SYNOPSIS
+
+    > yt commit     # Add and commit all changes to the YamlTime data store
+    > yt push       # Push changes to the upstream repo

@@ -1,4 +1,11 @@
 ---
+version: 0.02
+date:    Thu Jul 28 14:33:34 CDT 2011
+changes:
+- Rename to YamlTime::Git.
+- Make sure YamlTime::Extension::Git is not installed.
+- Add SYNOPSIS
+---
 version: 0.01
 date:    Mon Jun 27 21:29:03 EDT 2011
 changes:
