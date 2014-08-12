@@ -1,18 +1,9 @@
-##
-# name:      YamlTime::Git
-# abstract:  Git Support for YamlTime
-# author:    Ingy döt Net <ingy@cpan.org>
-# license:   perl
-# copyright: 2011
-# see:
-# - YamlTime
-
 use 5.008003;
 use YamlTime 0.10 ();
 
 package YamlTime::Git;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 # XXX Put this here on 28/07/2011. Leave in for a while...
 {
@@ -55,8 +46,3 @@ sub execute {
 }
 
 1;
-
-=head1 SYNOPSIS
-
-    > yt commit     # Add and commit all changes to the YamlTime data store
-    > yt push       # Push changes to the upstream repo

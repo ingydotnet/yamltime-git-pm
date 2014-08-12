@@ -1,0 +1,29 @@
+=meta: 0.0.1
+
+name: YamlTime-Git
+version: 0.03
+abstract: Git Support for YamlTime
+homepage: https://metacpan.org/release/YamlTime
+
+license: perl
+copyright: 2011-2014. Ingy döt Net.
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+  homepage: http://ingy.net
+
+requires:
+  perl: 5.8.1
+  YamlTime: 0.14
+
+devel:
+  git: https://github.com/ingydotnet/yamltime-git-pm
+  bug: https://github.com/ingydotnet/yamltime-git-pm/issues
+  irc: irc.freenode.net#pkg
+
+=travis:
+  type: perl
+  irc: irc.freenode.net#pkg
