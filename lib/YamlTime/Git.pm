@@ -3,7 +3,7 @@ use YamlTime 0.10 ();
 
 package YamlTime::Git;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 # XXX Put this here on 28/07/2011. Leave in for a while...
 {
