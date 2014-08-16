@@ -1,8 +1,8 @@
 use strict; use warnings;
 package YamlTime::Git;
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
-use YamlTime 0.10 ();
+use YamlTime();
 
 # XXX Put this here on 28/07/2011. Leave in for a while...
 {

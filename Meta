@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: YamlTime-Git
-version: 0.07
+version: 0.08
 abstract: Git Support for YamlTime
 homepage: https://metacpan.org/release/YamlTime
 language: perl
