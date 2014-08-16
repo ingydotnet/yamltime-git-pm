@@ -19,7 +19,7 @@ YamlTime::Git - Git Support for YamlTime
     > yt commit     # Add and commit all changes to the YamlTime data store
     > yt push       # Push changes to the upstream repo
 
-=head1 SEE
+=head1 SEE ALSO
 
 =over
 
